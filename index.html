@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Українська мова. 5 Клас</title>
+<meta name="generator" content="WYSIWYG Web Builder 20 - https://www.wysiwygwebbuilder.com">
+<link href="bootstrap/jquery-ui.min.css" rel="stylesheet">
+<link href="Ukrmova5.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+<script src="jquery-3.7.1.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="searchindex.js"></script>
+<script src="wb.sitesearch.min.js"></script>
+<script>
+var features = '';
+function searchPage(features)
+{
+   $('#SiteSearch1-dialog').dialog('open');
+   $('#SiteSearch1-dialog').empty();
+   searchResults('SiteSearch1', 'SiteSearch1-dialog', 250, 5, true, true, false, false, '_parent', 'No results', ' result(s) found for search term: ', 'seconds');
+   $('#SiteSearch1-dialog').dialog('option', 'position', 'center');
+   return false;
+}
+</script>
+<script>
+$(document).ready(function()
+{
+   searchParseURL('SiteSearch1');
+   searchAutoComplete('SiteSearch1', 0, '_parent');
+   $("#SiteSearch1-dialog").dialog(
+   {
+      modal: true,
+      width: 400,
+      height: 300,
+      position: { my: 'center', at: 'center', of: window },
+      resizable: true,
+      draggable: false,
+      closeOnEscape: true,
+      show: false,
+      hide: false,
+      autoOpen: false,
+      buttons: 
+      {
+         Close: function() 
+         {
+            $(this).dialog('close');
+         }
+      }
+   });
+});
+</script>
+</head>
+<body>
+<div id="space"><br></div>
+<div id="container">
+<div id="wb_Image1" style="position:absolute;left:0px;top:0px;width:1000px;height:725px;z-index:0;">
+<img src="images/ТЛО.jpg" id="Image1" alt="" width="1000" height="667"></div>
+<div id="wb_Shape3" style="position:absolute;left:19px;top:7px;width:467px;height:710px;z-index:1;">
+<img src="images/img0004.png" id="Shape3" alt="" width="467" height="710" style="width:467px;height:710px;"></div>
+<form name="SiteSearch1_form" id="SiteSearch1_form" role="search" accept-charset="UTF-8" onsubmit="return searchPage(features)"></form>
+<input type="text" id="SiteSearch1" style="position:absolute;left:107px;top:29px;width:140px;height:18px;z-index:2;" name="SiteSearch1" value="" spellcheck="false" placeholder="Пошук" role="searchbox" form="SiteSearch1_form">
+<div id="SiteSearch1-dialog" title="Search results"></div>
+<input type="button" id="Button1" onclick="searchPage();return false;" name="Search" value="Знайти" style="position:absolute;left:262px;top:31px;width:96px;height:25px;z-index:3;">
+<a id="Button2" href="./title.html" style="position:absolute;left:130px;top:500px;width:221px;height:69px;z-index:4;">ПОЧНІМО!</a>
+<div id="wb_Text12" style="position:absolute;left:150px;top:678px;width:168px;height:18px;z-index:5;">
+<span style="color:#000000;font-family:Arial;font-size:16px;"><strong> © 2026 ТОВ &quot;Генеза&quot;</strong></span></div>
+<div id="wb_Text1" style="position:absolute;left:42px;top:123px;width:391px;height:371px;text-align:center;z-index:6;">
+<p style="font-size:21px;line-height:24.5px;font-weight:bold;">&nbsp;</p>
+<p style="font-size:19px;line-height:21px;"><span style="font-size:21px;line-height:24.5px;font-weight:bold;">ІНТЕРАКТИВНИЙ ЕЛЕКТРОННИЙ ДОДАТОК</span></p>
+<p style="font-size:16px;line-height:18px;">&nbsp;</p>
+<p style="font-size:16px;line-height:18px;">&nbsp;</p>
+<p style="font-size:16px;line-height:18px;">Запрошуємо в чарівний світ українського слова! </p>
+<p style="font-size:16px;line-height:18px;">Цей додаток створений для того, щоб зробити навчання легким, цікавим та ефективним.</p>
+<p style="font-size:16px;line-height:18px;">&nbsp;</p>
+<p style="font-size:16px;line-height:18px;">Що на вас чекає:</p>
+<ul style="font-size:16px;line-height:18px;list-style-type:disc;">
+<li style="margin:0 0 0 48px;">Інфографіка уроку: все й одразу.
+</li>
+<li style="margin:0 0 0 48px;">Медіатека: переглядайте відеопояснення.
+</li>
+<li style="margin:0 0 0 48px;">Інтерактивні вправи: закріплюйте знання через ігри.
+</li>
+<li style="margin:0 0 0 48px;">Корисні поради та цікаві матеріали.
+</li>
+</ul>
+<p style="font-size:16px;line-height:18px;">&nbsp;</p>
+<p style="font-size:16px;line-height:18px;">Мова — це код нації. Опановуйте цей код впевнено та із задоволенням!</p>
+<p style="font-size:16px;line-height:18px;">&nbsp;</p></div>
+<div id="wb_Image2" style="position:absolute;left:500px;top:7px;width:479px;height:710px;z-index:7;">
+<img src="images/coverukrmova.png" id="Image2" alt="" width="479" height="709"></div>
+</div>
+</body>
+</html>
